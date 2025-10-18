@@ -1,0 +1,37 @@
+# Ignore Visual Studio cache and settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Ignore environment files
+.env
+
+# Ignore migration snapshot backups
+Migrations/*.Designer.cs
+
+# Ignore local database files
+*.mdf
+*.ldf
+*.db
