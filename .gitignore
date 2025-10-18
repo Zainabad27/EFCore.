@@ -1,37 +1,62 @@
-# Ignore Visual Studio cache and settings
-.vs/
-*.user
+# ==========================
+# Visual Studio + EF Core
+# ==========================
+
+# User-specific files
+*.rsuser
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
-# Ignore build results
-bin/
-obj/
-Debug/
-Release/
+# Visual Studio cache/options
+.vs/
 
-# Ignore logs
-*.log
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
 
-# Ignore temporary files
-*.tmp
-*.temp
-*.bak
-*.old
-
-# Ignore NuGet packages
-*.nupkg
-packages/
-*.snupkg
-
-# Ignore environment files
-.env
-
-# Ignore migration snapshot backups
+# Entity Framework migrations (auto-generated designer)
 Migrations/*.Designer.cs
 
-# Ignore local database files
+# Environment & configuration files
+*.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Local databases
 *.mdf
 *.ldf
 *.db
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.temp
+*.old
+*.log
+
+# Publish outputs
+publish/
+wwwroot/
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
