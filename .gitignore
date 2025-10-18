@@ -1,62 +1,54 @@
-# ==========================
-# Visual Studio + EF Core
-# ==========================
+# .gitignore file created for free with Tower (https://www.git-tower.com/)
+# For suggestions or improvements please contact us using support@git-tower.com
+# Generated on 2025-10-18
+# Includes: dotnet
 
-# User-specific files
-*.rsuser
-*.suo
+### Universal ###
+# Common files that should be ignored in all projects
+
+# Logs
+*.log
+# Temporary files
+*.tmp
+*~
+
+*.bak
+# Environment files (containing secrets, API keys, credentials)
+.env
+*.env
+.env.*
+
+# Local configuration that shouldn't be shared
+*.local
+
+### Dotnet ###
+# .NET build outputs and development files
+
+bin/
+obj/
 *.user
 *.userosscache
 *.sln.docstates
 
-# Visual Studio cache/options
 .vs/
+*_i.c
+*_p.c
+*.ncb
+*.suo
 
-# Build results
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+
+*.log
+*.lib
+*.sbr
+*.sdf
+packages/
+
+TestResults/
+[Bb]in/
 [Dd]ebug/
 [Rr]elease/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-
-# Entity Framework migrations (auto-generated designer)
-Migrations/*.Designer.cs
-
-# Environment & configuration files
-*.env
-appsettings.Development.json
-appsettings.Local.json
-secrets.json
-
-# Local databases
-*.mdf
-*.ldf
-*.db
-
-# NuGet Packages
-*.nupkg
-*.snupkg
-packages/
-project.lock.json
-
-# Backup & temporary files
-*.bak
-*.tmp
-*.temp
-*.old
-*.log
-
-# Publish outputs
-publish/
-wwwroot/
-
-# OS junk
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-.DS_Store
